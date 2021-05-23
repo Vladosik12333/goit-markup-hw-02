@@ -1,7 +1,9 @@
 :root {
   --main-font: 'Roboto', sans-serif;
-  --other-font: 'Ralewey', sans-serif;
   --logo-color: #2196f3;
+  --black-grey-color: #212121;
+  --white-color: #ffffff;
+  --grey-color: #757575;
 }
 
 * {
@@ -28,7 +30,7 @@ a {
 /* Header */
 
 .header {
-  background: white;
+  background: var(--white-color);
 }
 
 .header-nav {
@@ -36,11 +38,11 @@ a {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .header-logo-site {
-  font-family: var(--other-font);
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -63,7 +65,7 @@ a {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey-color);
 }
 
 .header-contacts-button:hover,
@@ -79,12 +81,12 @@ a {
 }
 
 .footer-logo-site {
-  font-family: var(--other-font);
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--white-color);
 }
 
 .footer-logo-apart-site {
@@ -95,7 +97,7 @@ a {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-contacts {
@@ -126,7 +128,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .one-section-button {
@@ -144,7 +146,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* Two section */
@@ -159,14 +161,14 @@ a {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .two-section-text {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 
 /* Three section */
@@ -181,7 +183,7 @@ a {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 /* Four section */
@@ -196,7 +198,7 @@ a {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .four-section-name {
@@ -205,7 +207,7 @@ a {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .four-section-position {
@@ -213,7 +215,7 @@ a {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 
 /* PORTFOLIO.html */
@@ -236,7 +238,7 @@ a {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .portfolio-section-button:hover,
@@ -248,7 +250,7 @@ a {
 
 .portfolio-section-button-content:hover,
 .portfolio-section-button-content:focus {
-  color: white;
+  color: var(--white-color);
 }
 
 /* Two ul */
@@ -258,12 +260,12 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black-grey-color);
 }
 
 .portfolio-section-text {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
